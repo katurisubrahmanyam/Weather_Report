@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherReport</title>
+    <link rel="stylesheet" href="weather_report.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="weather_report.js" defer></script>
+</head>
+<body>
+    <div id="main_container">
+        <div id="first_container">
+            <input type="text" id="search_inputbox" placeholder="Search City">
+            <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+        </div>
+        <div id="second_container">
+            <i class="fa-solid fa-location-dot" id="location_icon"></i>
+            <h1 id="city_name"></h1>
+        </div>
+        <div id="third_container">
+            <div id="weather_icon_container">
+                <i class="fa-solid fa-cloud" id="weather_icon"></i>
+            </div>
+            <div id="weather_report_heading_container">
+               <h1 id="weather_report_heading"></h1>
+            </div>
+            <div id="celsius_container">
+                <h1 id="celsius_heading"><sup ></sup></h1>
+            </div>
+        </div>
+        <div id="fourth_container">
+            <div id="humidity_container">
+                <i class="fa-solid fa-droplet" id="humidity_icon"></i>
+                <h1 id="humidity_heading">Humidity</h1>
+                <h1 id="humidity_percentage"></h1>
+            </div>
+            <div id="wind_container">
+                <i class="fa-solid fa-wind" id="wind_icon"></i>
+                <h1 id="wind_heading">Wind Speed</h1>
+                <h1 id="wind_speed"></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
